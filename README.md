@@ -10,9 +10,9 @@ Webstorm IDE was used to develop the application.
 
 - STEP 1: Establish the IDE as required.
 - STEP 2: Include AngularJS
-  - [Run npm install  –g] 
-  - [Run npm install for installing repository-specific npm modules.]
-  - [Run bower install for installing bower specific packages.]
+  - Run npm install  –g 
+  - Run npm install for installing repository-specific npm modules.
+  - Run bower install for installing bower specific packages.
 
 ### ABOUT THE LEVEL MONEY APPLICATION:
 All Transactions: Loads all of the user's transactions.
