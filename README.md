@@ -1,21 +1,20 @@
 # CapOneExcercise
 
-Environment
+### Environment
 The project is built on
+ * Node v7.4.0
+ * AngularJS v1.6.1
 
-Node v7.4.0
-AngularJS v1.6.1
-
-Installations
+### Installations
 Webstorm IDE was used to develop the application. 
 
-STEP 1: Establish the IDE as required.
-STEP 2: Include AngularJS
-•	Run npm install  –g 
-•	Run npm install for installing repository-specific npm modules.
-•	Run bower install for installing bower specific packages.
+- STEP 1: Establish the IDE as required.
+- STEP 2: Include AngularJS
+  - [Run npm install  –g] 
+  - [Run npm install for installing repository-specific npm modules.]
+  - [Run bower install for installing bower specific packages.]
 
-ABOUT THE LEVEL MONEY APPLICATION:
+### ABOUT THE LEVEL MONEY APPLICATION:
 All Transactions: Loads all of the user's transactions.
 
 Transactions Summary: Determines the average money user spends and makes in each of the months. Also calculates the total average of the money spent for all of the transactions. Please find the total average at the end of the table.
