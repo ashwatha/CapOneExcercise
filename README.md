@@ -1,5 +1,8 @@
 # CapOneExcercise
 
+### DEMO
+http://plnkr.co/edit/PoFgPyfZUyLpjW5J73QD?p=preview
+
 ### Environment
 The project is built on
  * Node v7.4.0
