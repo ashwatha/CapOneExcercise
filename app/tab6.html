@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Average Projected Transactions</title>
+</head>
+<body>
+<div class="column content" align="center">
+    <h1>Projected Transactions Summary Including Current Month</h1>
+</div>
+<div>
+    <table align="center">
+        <tr>
+            <th>Month/Year</th>
+            <th>Projected Credit</th>
+            <th>Projected Debit</th>
+        </tr>
+        <tr ng:repeat="(key, value) in avgprojectedtransactions">
+            <td>{{key}}</td>
+            <td>{{value["credit"]}}</td>
+            <td>{{value["debit"]}}</td>
+        </tr>
+        <tr>
+            <td>Average</td>
+            <td>{{projectedcredit}}</td>
+            <td>{{projecteddebit}}</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Average Transactions</title>
+</head>
+<body>
+<div class="column content" align="center">
+    <h1>Transactions Summary (Average per month)</h1>
+</div>
+<div>
+    <table align="center">
+        <tr>
+            <th>Month/Year</th>
+            <th>Credit</th>
+            <th>Debit</th>
+        </tr>
+        <tr ng:repeat="(key, value) in avgtransactions">
+            <td>{{key}}</td>
+            <td>{{value["credit"]}}</td>
+            <td>{{value["debit"]}}</td>
+        </tr>
+        <tr>
+            <td>Average</td>
+            <td>{{credit}}</td>
+            <td>{{debit}}</td>
+        </tr>
+
+    </table>
+</div>
+
+</body>
+</html>

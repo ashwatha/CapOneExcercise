@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projected Transaction Summary</title>
+</head>
+<body>
+<div class="column content" align="center">
+    <h1>Projected Transactions (Current month)</h1>
+</div>
+<div>
+    <table align="center">
+        <tr>
+            <th>Transaction Id</th>
+            <th>Merchant</th>
+            <th>Account</th>
+        </tr>
+        <tr ng:repeat="transaction in projectedTransactions">
+            <td class="transactionDate"> {{transaction["transaction-time"] | date:'MMM dd, yyyy' }} </td>
+            <td>{{transaction.merchant}}</td>
+            <td>{{transaction.amount}}</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

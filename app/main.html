@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- set our tabs with the AngularJS-->
+<div ng-controller="transactionsController">
+
+    <tabset>
+        <tab
+                ng-repeat="t in tabs"
+                heading="{{t.heading}}"
+                select="go(t.route)"
+                active="t.active">
+        </tab>
+    </tabset>
+    <!-- ui-view is the element that a state will search in order to inject its view-->
+    <div ui-view></div>
+
+</div>
